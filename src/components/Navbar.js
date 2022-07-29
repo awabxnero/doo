@@ -14,7 +14,7 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <div className="  fixed  w-full ">
+    <div className="  fixed  w-full z-50 ">
       <div
         className={` absolute left-0 top-0 right-0 ${
           scrolledDown ? "bg-white" : ""

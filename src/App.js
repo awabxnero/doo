@@ -119,7 +119,7 @@ function App() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className=" min-h-screen flex flex-row"
+        className=" min-h-screen flex flex-row mb-40"
       >
         <div className="flex flex-col w-full items-center justify-around">
           <p className=" text-5xl">Flexible Fund Access</p>
@@ -157,12 +157,370 @@ function App() {
             />
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full relative flex flex-col justify-center items-center">
           <img
+            className=" w-3/4"
             src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-e-Wallet.webp"
             alt=""
           />
+          <img
+            className=" absolute bottom-[-100px] left-0"
+            src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/homepage-element.svg"
+            alt=""
+          />
+          <img
+            className=" absolute right-[-200px] top-20"
+            src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/element2.svg"
+            alt=""
+          />
         </div>
+      </div>
+
+      <div className=" min-h-screen relative flex flex-col items-center p-20 mb-80">
+        <h2 className=" text-5xl mb-10">Multiple Trading Accounts</h2>
+        <p className="text-[#D81C22]">Learn More</p>
+        <div className=" absolute z-20 mt-20 top-40 flex flex-row w-[90vw] bg-white opacity-90 ">
+          <div className="w-full h-full flex flex-col p-10 border-[#E4E4E4] border-r-[1px]">
+            <div className="flex flex-col">
+              <div className="flex flex-row w-3/4 items-center justify-between">
+                <img
+                  className=" w-42"
+                  src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/CENT.svg"
+                  alt=""
+                />
+                <img
+                  src={require("./assets/icons/dropdown.png")}
+                  alt=""
+                  className="  h-2"
+                />
+              </div>
+              <p className=" mt-6 mb-10">Account Currency: USC</p>
+            </div>
+            <div className="flex flex-col">
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Minimum Deposit</p>
+                <p className=" text-5xl">100</p>
+              </div>
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Spread</p>
+                <p className=" text-5xl">High</p>
+              </div>
+              <div className=" py-10  flex flex-row justify-between">
+                <p>Free Demo</p>
+                <p className=" text-5xl">None</p>
+              </div>
+              <button className="self-center mt-10 border-2 border-[#D81C22] text-[#D81C22] rounded-md px-12 py-2 ml-4">
+                Register
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full h-full flex flex-col p-10 border-[#E4E4E4] border-r-[1px]">
+            <div className="flex flex-col">
+              <div className="flex flex-row w-3/4 items-center justify-between">
+                <img
+                  className=" w-42"
+                  src="	https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/STP.svg"
+                  alt=""
+                />
+                <img
+                  src={require("./assets/icons/dropdown.png")}
+                  alt=""
+                  className="  h-2"
+                />
+              </div>
+              <p className=" mt-6 mb-10">Account Currency: USD</p>
+            </div>
+            <div className="flex flex-col">
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Minimum Deposit</p>
+                <p className=" text-5xl">100</p>
+              </div>
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Spread</p>
+                <p className=" text-5xl">Medium</p>
+              </div>
+              <div className=" py-10  flex flex-row justify-between">
+                <p>Free Demo</p>
+                <p className=" text-5xl">Yes</p>
+              </div>
+              <button className="self-center mt-10 border-2 border-[#D81C22] text-[#D81C22] rounded-md px-12 py-2 ml-4">
+                Register
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full h-full flex flex-col p-10 ">
+            <div className="flex flex-col">
+              <div className="flex flex-row w-3/4 items-center justify-between">
+                <img
+                  className=" w-42"
+                  src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/ECN.svg"
+                  alt=""
+                />
+                <img
+                  src={require("./assets/icons/dropdown.png")}
+                  alt=""
+                  className="  h-2"
+                />
+              </div>
+              <p className=" mt-6 mb-10">Account Currency: USC</p>
+            </div>
+            <div className="flex flex-col">
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Minimum Deposit</p>
+                <p className=" text-5xl">5,000</p>
+              </div>
+              <div className=" py-10 border-[#E4E4E4] border-b-[1px] flex flex-row justify-between">
+                <p>Spread</p>
+                <p className=" text-5xl">Low</p>
+              </div>
+              <div className=" py-10  flex flex-row justify-between">
+                <p>Free Demo</p>
+                <p className=" text-5xl">None</p>
+              </div>
+              <button className="self-center mt-10 border-2 border-[#D81C22] text-[#D81C22] rounded-md px-12 py-2 ml-4">
+                Register
+              </button>
+            </div>
+          </div>
+        </div>
+        <img
+          className=" absolute z-10 left-[-140px] top-[250px]"
+          src="	https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-STP-CENT-Account.webp"
+          alt=""
+        />
+        <img
+          className=" absolute z-10 right-[-380px] top-[350px]"
+          src="	https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-ECN-Account.webp"
+          alt=""
+        />
+        <img
+          className=" absolute z-10 left-[100px] top-0"
+          src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/ganggan_backgroup.svg"
+          alt=""
+        />
+      </div>
+
+      <div className="relative min-h-screen flex flex-col mb-80">
+        <div className=" pl-20 mb-20">
+          <h2 className=" text-5xl mb-6">
+            Safe and Reliable Trading Platforms
+          </h2>
+          <p>
+            Enhance your trading experience with internationally recognized and
+            reliable trading platforms.
+          </p>
+        </div>
+        <div className=" relative ">
+          <div className=" absolute z-20 top-[-40px] right-0">
+            <img
+              src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-MT4.webp"
+              alt=""
+              className=" h-[700px] w-auto"
+            />
+          </div>
+          <div className="absolute z-10  w-[100vw]">
+            <div
+              style={{
+                background: "linear-gradient(to right, #f5f5f6, #ffffff)",
+              }}
+              className="     pl-20  py-10"
+            >
+              <div className="flex flex-row h-[300px] w-[500px] mb-10">
+                <div className="mr-4">
+                  <img
+                    className=" w-32"
+                    src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/MT4.svg"
+                    alt=""
+                  />
+                </div>
+                <div className=" flex flex-col ">
+                  <div className=" flex flex-col">
+                    <p className=" text-[#D81C22] border-[#D81C22] border-l-2 text-3xl font-bold pl-8 py-2 mt-2 mb-4">
+                      MetaTrader 4
+                    </p>
+                    <p className="pl-8">
+                      Enhance your trading experience with internationally
+                      recognized and reliable trading platforms.
+                    </p>
+                  </div>
+                  <div className=" flex flex-col ml-8  border-[#E4E4E4] border-t-[1px] pt-4 mt-10">
+                    <p>Supported download platforms:</p>
+                    <div className="grid grid-cols-2 gap-y-4 gap-x-10 mt-4 w-full">
+                      <div className=" flex flex-row justify-between items-center">
+                        <div className=" flex flex-row items-center w-full">
+                          <img
+                            src={require("./assets/icons/windows.png")}
+                            alt=""
+                            className="  h-6 mr-4"
+                          />
+                          <p>Windows Desktop</p>
+                        </div>
+                        <img
+                          src={require("./assets/icons/download.png")}
+                          alt=""
+                          className=" h-6"
+                        />
+                      </div>
+                      <div className=" flex flex-row justify-between items-center">
+                        <div className=" flex flex-row items-center w-full">
+                          <img
+                            src={require("./assets/icons/apple.png")}
+                            alt=""
+                            className="  h-6 mr-4"
+                          />
+                          <p>iOS Mobile</p>
+                        </div>
+                        <img
+                          src={require("./assets/icons/download.png")}
+                          alt=""
+                          className=" h-6"
+                        />
+                      </div>
+                      <div className=" flex flex-row justify-between items-center">
+                        <div className=" flex flex-row items-center w-full">
+                          <img
+                            src={require("./assets/icons/playstore.png")}
+                            alt=""
+                            className="  h-6 mr-4"
+                          />
+                          <p>Google Play</p>
+                        </div>
+                        <img
+                          src={require("./assets/icons/download.png")}
+                          alt=""
+                          className=" h-6"
+                        />
+                      </div>
+                      <div className=" flex flex-row justify-between items-center">
+                        <div className=" flex flex-row items-center w-full">
+                          <img
+                            src={require("./assets/icons/android.png")}
+                            alt=""
+                            className="  h-6 mr-4"
+                          />
+                          <p>Android APK</p>
+                        </div>
+                        <img
+                          src={require("./assets/icons/download.png")}
+                          alt=""
+                          className=" h-6"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                borderImage: "linear-gradient(to right, #f5f5f6, #ffffff)",
+                borderImageSlice: 1,
+                borderStyle: "solid",
+                borderWidth: "3px",
+              }}
+              className="flex row  items-center pl-20 py-4"
+            >
+              <img
+                className=" w-16 mr-12"
+                src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/MT4.svg"
+                alt=""
+              />
+              <p className=" text-3xl font-bold">MetaTrader 5</p>
+            </div>
+            <div
+              style={{
+                borderImage: "linear-gradient(to right, #f5f5f6, #ffffff)",
+                borderImageSlice: 1,
+                borderStyle: "solid",
+                borderWidth: "2px",
+              }}
+              className="flex row  items-center pl-20 py-4"
+            >
+              <img
+                className=" w-16 mr-12"
+                src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/DooPrimeInTrade.svg"
+                alt=""
+              />
+              <p className=" text-3xl font-bold">Doo Prime InTrade</p>
+            </div>
+            <div
+              style={{
+                borderImage: "linear-gradient(to right, #f5f5f6, #ffffff)",
+                borderImageSlice: 1,
+                borderStyle: "solid",
+                borderWidth: "4px",
+              }}
+              className="flex row  items-center pl-20 py-8"
+            >
+              <img
+                className=" w-16 mr-12"
+                src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Tradingview.svg"
+                alt=""
+              />
+              <p className=" text-3xl font-bold">TradingView</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" min-h-screen relative">
+        <div className=" absolute z-20 right-20 top-0 w-1/3">
+          <h2 className=" text-5xl">Social Trading</h2>
+          <p>
+            You can become a publisher of trading strategies, or you can follow
+            other excellent traders to trade and enjoy the return on investment.
+          </p>
+        </div>
+        <div class=" mx-20 absolute z-10">
+          <img
+            src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-Trading-Network-Anim.gif"
+            class="bg-image"
+            alt="Doo Prime Trading Network"
+          />
+        </div>
+        <div className="">
+          <div className=" bg-white rounded-full px-4 py-2 shadow-md absolute z-20 top-[5.3%] left-[28%]">
+            <img
+              src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/myfxbook.svg"
+              alt=""
+            />
+          </div>
+          <div className=" bg-white rounded-full px-4 py-2 shadow-md absolute z-20 bottom-[33%] left-[30%] ">
+            <img
+              src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/outrade.svg"
+              alt=""
+            />
+          </div>
+          <div className=" bg-white rounded-full px-4 py-2 shadow-md absolute z-20 top-[36%] left-[49%] ">
+            <img
+              src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/followme.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="  flex flex-row justify-between items-start w-full p-20">
+        <div className="flex flex-col self-stretch justify-between pt-10 pb-20">
+          <div className=" w-3/4 pr-20">
+            <h2 className=" text-5xl mb-4">Technical Analysis</h2>
+            <p className="">
+              Provide global users with analytical tools such as Trading Central
+              and an economic calendar, and take advantage of technological
+              advantages to discover more investment opportunities.
+            </p>
+          </div>
+          <button className=" self-start text-white bg-[#D81C22] rounded-md px-12 py-4">
+            Register
+          </button>
+        </div>
+        <img
+          className=" w-1/2 h-full"
+          src="https://www.dooprime.com/wp-content/themes/DP3-1104/style/images/homepage/Doo-Prime-Trading-Central-Featured-Ideas.webp"
+          alt=""
+        />
       </div>
 
       <div className=" min-h-screen bg-[#F6F9FA] p-20 flex flex-row">

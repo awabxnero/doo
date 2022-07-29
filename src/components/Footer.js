@@ -108,15 +108,15 @@ export default function Footer() {
       </div>
       <div className=" justify-between px-20 py-14 bg-[#EEF1F3] flex flex-col">
         <p className=" font-bold leading-10">Compliance</p>
-        <p className=" text-[#13A0FF]">
+        <p className=" text-[#13A0FF] leading-10 my-4">
           (We have detected that you may be accessing this website from a
-          jurisdiction: Malaysia where we do not provide services. Your legal
-          rights shall not be protected under the laws and regulations of your
-          jurisdiction. You shall be governed by the laws of 'Republic of
+          jurisdiction: <b>Malaysia</b> where we do not provide services. Your
+          legal rights shall not be protected under the laws and regulations of
+          your jurisdiction. You shall be governed by the laws of 'Republic of
           Vanuatu', and you hereby acknowledge the risks in complying with the
           laws of 'Republic of Vanuatu'.)
         </p>
-        <p>
+        <p className=" leading-10">
           Please read the following Compliance Disclosure carefully <br />
           This website is owned and operated by Doo Prime Vanuatu Limited.{" "}
           <br />
